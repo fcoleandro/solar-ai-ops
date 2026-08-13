@@ -1,0 +1,98 @@
+Solar AI Ops — Development Roadmap
+
+Solar AI Ops is an early-stage open-source initiative focused on applying artificial intelligence to photovoltaic system monitoring, diagnostics and solar operations.
+
+This roadmap describes the initial direction of the project. Priorities may evolve as the architecture is developed and the community provides feedback.
+
+Phase 1 — Foundation
+
+Goal: Establish the technical foundation and define the first open data structures.
+
+* Define the initial software architecture
+* Define standardized photovoltaic system data models
+* Create anonymized or synthetic sample datasets
+* Document common solar monitoring scenarios
+* Define expected-generation and actual-generation structures
+* Establish repository standards
+* Add contribution guidelines
+* Define the first API specifications
+
+Phase 2 — Monitoring Intelligence
+
+Goal: Develop the first operational monitoring components.
+
+Planned capabilities:
+
+* Detect offline photovoltaic systems
+* Identify communication failures
+* Detect abnormal generation patterns
+* Compare actual generation against expected generation
+* Identify systems with potential underperformance
+* Classify operational alerts
+* Prioritize systems requiring technical attention
+
+The initial implementation should remain platform-independent whenever possible.
+
+Phase 3 — Energy Data Analysis
+
+Goal: Combine photovoltaic production information with energy-consumption and utility data.
+
+Planned capabilities:
+
+* Import generation history
+* Process energy-bill data
+* Compare generated, injected and compensated energy
+* Analyze consumption patterns
+* Detect inconsistencies between monitoring and utility information
+* Generate standardized performance indicators
+
+Phase 4 — AI-Assisted Diagnostics
+
+Goal: Use AI to help transform operational data into understandable technical information.
+
+Planned capabilities:
+
+* AI-assisted technical diagnostics
+* Explain detected anomalies
+* Suggest investigation priorities
+* Generate technical performance summaries
+* Assist technical-support workflows
+* Natural-language queries over operational data
+
+AI recommendations should assist rather than replace technical validation.
+
+Phase 5 — Connectors and Integrations
+
+Goal: Allow the community to connect different platforms and business systems.
+
+Planned components:
+
+* Monitoring-platform connector interface
+* REST API
+* Webhook support
+* CRM integrations
+* Service-management integrations
+* Community-developed connectors
+
+Vendor-specific connectors should remain modular so that the core project does not depend on a single manufacturer or monitoring platform.
+
+Phase 6 — Community and Ecosystem
+
+Goal: Make Solar AI Ops easier to adopt and extend.
+
+* Developer documentation
+* Installation guides
+* Example implementations
+* Contribution templates
+* Automated testing
+* Containerized deployment
+* Community connector directory
+* Versioned releases
+
+Current Priority
+
+The current priority is Phase 1.
+
+The immediate objective is to establish a clean technical foundation before implementing production integrations.
+
+Contributions, technical discussions and architecture suggestions are welcome.
